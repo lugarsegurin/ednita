@@ -1,0 +1,99 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial ;
+    background-color: #dbc2a9;
+    padding:10px;
+    
+}
+.encabezado{
+    padding-left:25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    text-align: center;
+    background-color:#efe9c8;
+}
+.encabezado h1{
+    font-size: 68px;
+    color: white;
+    font-family:Broadway;
+    /*-webkit-text-stroke:0.3px #a32e2e;
+    text-shadow: #FGADFE -2px 5px;*/
+}
+.menu{
+    background-color: 	#fff3fa;
+    overflow: hidden;
+
+    padding:5px;
+}
+.menu a{
+    float: left;
+    display:  block;
+    color:#000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+
+}
+.menu a:hover{
+    color:black;
+   background-color: #f79ed4; 
+}
+.izq{
+    float: left;
+    width: 70%;
+    padding-right: 15px;
+    background-color: #efe9c8;
+     font-family: Times New Roman;
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 101px;
+    
+}
+ 
+.der{
+    float: left;
+    width:30%;
+    background-color: #efe9c8;
+   
+   
+    
+}
+.cuerpo::after{
+    content: "";
+    display: table; 
+    clear: both;
+}
+.pie{
+    padding-top: 150px;
+    
+    margin-top: .5px;
+    background-color: #efe9c8;
+    text-align: center;
+    
+}
+
+
+
+@media screen and (max-width: 1000px){/*400 celular*/
+    .izq , .der{
+        width: 100%;
+        padding: 0;
+        
+    }
+}
+@media screen and (max-width: 800px){/*800 celular*/
+    .menu a {
+        float: none;
+        width: 100%;
+        
+    }
+}
+
+
+
+
