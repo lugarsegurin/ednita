@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial ;
+    background-color:#fff3fa;
+    padding:10px;
+    }
+
+.encabezado2{
+    padding: 25px;
+    text-align: center;
+    background-color: #ffe1ed;
+}
+
+.encabezado2 h1{
+    font-size: 48px;
+    color: brown;
+    font-family: Algerian;
+    -webkit-text-stroke:0.3px #a32e2e;
+    text-shadow: #FGADFE -2px 5px;
+}
+
+.menu2{
+    background-color: #fcf8f8;
+    overflow: hidden;
+
+    padding:5px;
+}
+
+.menu2 a{
+    float: left;
+    display:  block;
+    color:#9f4d98;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+
+}
+.menu2 a:hover{
+    color:black;
+   background-color: #f3dcf7; 
+}
+
+.izq2{
+    float: left;
+    width: 85%;
+    background-color: #ffe1ed;
+    font-family: Times New Roman;
+    padding-left: 15px;
+    text-align: justify;
+    
+}
+ 
+.der{
+    float: left;
+    width:15%;
+    background-color:#ffe1ed;
+   
+    
+}
+.cuerpo2::after{
+    content: "";
+    display: table; 
+    clear: both;
+}
+.pie2{
+    padding: .5px;
+    margin-top: .5px;
+    background-color: #f8e0fd;
+    text-align: center;
+    
+}
+
+
+ @media screen and (max-width: 1000px){/*400 celular*/
+    .izq2 , .der, .foto1, .foto2, .foto3 {
+        width: 100%;
+        padding: 0;
+        
+    }
+}
+@media screen and (max-width: 800px){/*800 celular*/
+    .menu2 a {
+        float: none;
+        width: 100%;
+        
+    }
+}
