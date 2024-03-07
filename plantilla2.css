@@ -1,0 +1,108 @@
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial ;
+    background-color: #f9d0d0;
+    padding:10px;
+    }
+
+.encabezado2{
+    padding: 25px;
+    text-align: center;
+    background-color: #e6b6b0;
+}
+
+.encabezado2 h1{
+    font-size: 48px;
+    color: brown;
+    font-family: Algerian;
+    -webkit-text-stroke:0.3px #a32e2e;
+    text-shadow: #FGADFE -2px 5px;
+}
+
+.menu2{
+    background-color: #ffffff;
+    backface-visibility: hidden;
+    overflow: hidden;
+
+    padding:5px;
+}
+
+.menu2 a{
+    float: left;
+    display:  block;
+    color:#9f4d98;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+
+}
+.menu2 a:hover{
+    color:black;
+   background-color: #f3dcf7; 
+}
+
+.izq2{
+    float: left;
+    width: 100%;
+    padding: 15px;
+    background-color: #dbc2a9;
+    font-family: Times New Roman;
+    font-size: 20px;
+    text-align: justify;
+}
+ 
+.foto1{
+    float: left;
+    width:33.33%;
+    background-color: #f9d0d0;
+    padding: 15px;
+   
+    
+}
+.foto2{
+    padding: 15px;
+    float: left;
+    width:33.33%;
+    background-color: #f9d0d0;
+   
+    
+}
+.foto3{
+    padding: 15px;
+    float: left;
+    width:33.33%;
+    background-color: #f9d0d0;
+   
+    
+}
+.cuerpo2::after{
+    content: "";
+    display: table; 
+    clear: both;
+}
+.pie2{
+    padding: .5px;
+    margin-top: .5px;
+    background-color: #f8e0fd;
+    text-align: center;
+    
+}
+  @media screen and (max-width: 1000px){/*400 celular*/
+    .izq2 , .foto1, .foto2, .foto3 {
+        width: 100%;
+        padding: 0;
+        
+    }
+}
+@media screen and (max-width: 800px){/*800 celular*/
+    .menu2 a {
+        float: none;
+        width: 100%;
+        
+    }
+}

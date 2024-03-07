@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial ;
+    background-color: #e5dbdc;
+    padding:10px;
+    }
+
+.encabezado2{
+    padding: 25px;
+    text-align: center;
+    background-color: #f7e1ee;
+   
+   
+}
+
+.encabezado2 h1{
+    font-size: 48px;
+    color: brown;
+    font-family: Algerian;
+    -webkit-text-stroke:0.3px #a32e2e;
+    text-shadow: #FGADFE -2px 5px;
+}
+
+.menu2{
+    background-color: #fdf6f8;
+    overflow: hidden;
+
+    padding:5px;
+}
+
+.menu2 a{
+    float: left;
+    display:  block;
+    color:#9f4d98;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+
+}
+.menu2 a:hover{
+    color:black;
+   background-color: #f3dcf7; 
+}
+
+.izq2{
+    float: left;
+    width: 100%;
+    background-color: #fce1e5;
+    font-family: cursive;
+    font-family: Times New Roman;
+    font-size: 20px;
+    text-align: justify;
+    padding: 2px;
+    
+    
+}
+ 
+.foto1{
+    float: left;
+    width:33.33%;
+    background-color: cornsilk;
+   
+    
+}
+.foto2{
+    padding-left: 160px;
+   background-color: #e5dbdc;
+    float: left;
+    width:33.33%;
+    
+   
+    
+}
+.foto3{
+    float: left;
+    width:33.33%;
+    background-color: cornsilk;
+   
+    
+}
+.cuerpo2::after{
+    content: "";
+    display: table; 
+    clear: both;
+}
+.pie2{
+    padding: .5px;
+    margin-top: .5px;
+    background-color: #f8e0fd;
+    text-align: center;
+    
+}
+
+ @media screen and (max-width: 1000px){/*400 celular*/
+    .izq2 , .foto1, .foto2, .foto3 {
+        width: 100%;
+        padding: 0;
+        
+    }
+}
+@media screen and (max-width: 800px){/*800 celular*/
+    .menu2 a {
+        float: none;
+        width: 100%;
+        
+    }
+} 
+
+
+
+
+
+/* Dropdown Button */
+/*.dropbtn {
+  background-color: #f598d8;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+/*.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+/*.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+/*.dropdown-content a {
+  color: #d44d4d;
+  background-color: #242424;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+/*.dropdown-content a:hover {background-color: #f483c6;}
+
+/* Show the dropdown menu on hover */
+/*.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/*.dropdown:hover .dropbtn {background-color: #b40e8e;}*/
+  
